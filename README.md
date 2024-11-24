@@ -1,3 +1,0 @@
-# Online Shop 
-This project is an implementation of a store with the ability to register users, login users, edit user information, add products by the admin, edit the information of a product by the admin, delete a product by the admin, approve requests by the admin (including registration, comments given for a product, request to increase user account credit), scoring, registering comments, charging user account credit, viewing products, filtering and searching (also accessible without logging in to the user account), adding a product to the shopping cart or Removing an item from the shopping cart and finalizing the shopping cart.
-This was the general description of the titles of the project's capabilities.
