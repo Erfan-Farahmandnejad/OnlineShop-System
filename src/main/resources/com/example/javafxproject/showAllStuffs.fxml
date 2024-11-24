@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anch_Shop" prefHeight="700.0" prefWidth="891.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.ShowAllController">
+   <children>
+      <ImageView fx:id="img_AllStuff" fitHeight="700.0" fitWidth="891.0" layoutX="-1.0">
+         <image>
+            <Image url="@image/blue-and-white-icon-shopping-bag-vector-35682795.jpg" />
+         </image>
+      </ImageView>
+      <TableView fx:id="tV_AllStuffs" editable="true" prefHeight="284.0" prefWidth="502.0" tableMenuButtonVisible="true">
+        <columns>
+          <TableColumn fx:id="tC_StuffName" prefWidth="90.0" style="-fx-background-color: #1643a6;" text="StuffName" />
+          <TableColumn fx:id="tC_StuffPrice" prefWidth="70.0" style="-fx-background-color: #395ba6;" text="StuffPrice" />
+            <TableColumn fx:id="tC_StuffId" prefWidth="60.0" style="-fx-background-color: #55948e;" text="StuffId" />
+            <TableColumn fx:id="tC_StuffInventory" prefWidth="90.0" style="-fx-background-color: #55b8c1;" text="StuffInventory" />
+            <TableColumn fx:id="tC_StuffKInd" prefWidth="90.0" style="-fx-background-color: #7ec8d1;" text="StuffKind" />
+            <TableColumn fx:id="tC_AverageScore" prefWidth="85.0" text="AverageScore" />
+        </columns>
+         <opaqueInsets>
+            <Insets bottom="3.0" left="5.0" right="4.0" top="5.0" />
+         </opaqueInsets>
+      </TableView>
+      <Button fx:id="btn_Back" cancelButton="true" layoutX="14.0" layoutY="649.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="58.0" style="-fx-background-color: #013343;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Sort" layoutX="740.0" layoutY="626.0" mnemonicParsing="false" onAction="#sortByComparable" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #55948e;" text="SortStuffs">
+         <font>
+            <Font name="Segoe UI Light" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Disordered" layoutX="587.0" layoutY="625.0" mnemonicParsing="false" onAction="#showAllStuff" prefHeight="46.0" prefWidth="110.0" style="-fx-background-color: #395ba6;" text="Undo Sorting" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txt_Search" layoutX="628.0" layoutY="187.0" onAction="#search" prefHeight="38.0" prefWidth="179.0" promptText="Search By StuffName">
+         <font>
+            <Font name="Segoe UI Light" size="15.0" />
+         </font>
+      </TextField>
+      <Label fx:id="lbl_Search" layoutX="512.0" layoutY="187.0" prefHeight="38.0" prefWidth="117.0" style="-fx-background-color: #000000;" text="Search by StuffName" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="13.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txt_StuffPageId" layoutX="512.0" layoutY="301.0" prefHeight="38.0" prefWidth="283.0" promptText="go to a Stuff page By StuffId" />
+      <Button fx:id="btn_StuffIdSubmit" layoutX="809.0" layoutY="301.0" mnemonicParsing="false" onAction="#goToAStuffPage" prefHeight="38.0" prefWidth="79.0" style="-fx-background-color: #1643a6;" text="Submit" textFill="#fffefe">
+         <font>
+            <Font name="Segoe UI Light" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_SearchSubmit" layoutX="815.0" layoutY="187.0" mnemonicParsing="false" onAction="#search" prefHeight="38.0" prefWidth="66.0" text="Submit">
+         <font>
+            <Font name="Segoe UI Light" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_Purchase" disable="true" layoutX="654.0" layoutY="566.0" mnemonicParsing="false" onAction="#purchaseOperation" prefHeight="46.0" prefWidth="126.0" style="-fx-background-color: #013343;" text="Purchase" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="16.0" />
+         </font>
+      </Button>
+      <TextField fx:id="txt_Filter" layoutX="492.0" layoutY="418.0" prefHeight="38.0" prefWidth="246.0" promptText="filter Stuffs (press help for more Information)" />
+      <Button fx:id="btn_Help" layoutX="749.0" layoutY="418.0" mnemonicParsing="false" onAction="#filterHelp" prefHeight="38.0" prefWidth="66.0" style="-fx-background-color: #7ec8d1;" text="Help">
+         <font>
+            <Font name="Segoe UI Light" size="16.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_filterSubmit" layoutX="824.0" layoutY="418.0" mnemonicParsing="false" onAction="#filterStuffs" prefHeight="38.0" prefWidth="66.0" style="-fx-background-color: #55b8c1;" text="Submit">
+         <font>
+            <Font name="Segoe UI Light" size="15.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="cBox_LoggedIn" layoutX="653.0" layoutY="536.0" mnemonicParsing="false" onAction="#loginCheck" style="-fx-background-color: #7ec8d1;" text="I have logged in">
+         <font>
+            <Font name="Segoe UI Light" size="15.0" />
+         </font>
+      </CheckBox>
+      <ImageView fx:id="img_Logo" fitHeight="60.0" fitWidth="200.0" layoutX="677.0" layoutY="14.0">
+         <image>
+            <Image url="@image/Picture1.png" />
+         </image>
+      </ImageView>
+      <VBox layoutX="182.0" layoutY="339.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anch_Stuff" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.StuffPageController">
+   <children>
+      <ImageView fx:id="img_Stuff" fitHeight="600.0" fitWidth="550.0">
+         <image>
+            <Image url="@image/cosmetic-light-blue-background-minimal-vector-38350807.jpg" />
+         </image>
+      </ImageView>
+      <Pane fx:id="pn_Stuff" layoutX="36.0" layoutY="25.0" prefHeight="401.0" prefWidth="478.0" style="-fx-border-color: #186161; -fx-border-width: 10;">
+         <children>
+            <GridPane fx:id="gp_Stuff" layoutX="10.0" layoutY="10.0" prefHeight="384.0" prefWidth="459.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="98.4000244140625" minWidth="0.0" prefWidth="0.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="266.79999999999995" minWidth="0.0" prefWidth="0.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="458.6" minWidth="0.0" prefWidth="458.6" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="106.99999694824218" minHeight="0.0" prefHeight="22.400009155273438" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="264.0000183105468" minHeight="10.0" prefHeight="222.39999084472657" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="159.59998168945313" minHeight="10.0" prefHeight="138.40000000000003" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="img_AStuff" fitHeight="218.0" fitWidth="275.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+                  <GridPane fx:id="gP_Information" prefHeight="189.0" prefWidth="459.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" maxWidth="272.39996337890625" minWidth="0.0" prefWidth="88.6" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="275.799951171875" minWidth="10.0" prefWidth="272.6" />
+                        <ColumnConstraints hgrow="SOMETIMES" maxWidth="272.39996337890625" minWidth="10.0" prefWidth="100.79996337890623" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="66.39998779296874" minHeight="10.0" prefHeight="47.20000610351562" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="84.79999999999998" minHeight="10.0" prefHeight="77.79999389648438" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <TableView fx:id="tV_Comments" editable="true" prefHeight="105.0" prefWidth="272.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                          <columns>
+                            <TableColumn fx:id="tC_UserName" prefWidth="136.8000030517578" text="UserName" />
+                            <TableColumn fx:id="tC_Text" prefWidth="136.00006103515625" text="CommentText" />
+                          </columns>
+                        </TableView>
+                        <Label fx:id="lbl_Price" alignment="CENTER" prefHeight="39.0" prefWidth="157.0" style="-fx-background-color: #ffffff;" text="Label" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lbl_Kind" alignment="CENTER" prefHeight="39.0" prefWidth="178.0" style="-fx-background-color: #ffffff;" text="Label" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lbl_Score" alignment="CENTER" prefHeight="39.0" prefWidth="138.0" style="-fx-background-color: #ffffff;" text="Label" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lbl_ID" alignment="CENTER" prefHeight="40.0" prefWidth="138.0" style="-fx-background-color: #ffffff;" text="Label" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="CENTER">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="lbl_Inventory" alignment="CENTER" prefHeight="39.0" prefWidth="138.0" style="-fx-background-color: #ffffff;" text="Label" GridPane.columnIndex="2" GridPane.rowIndex="1">
+                           <font>
+                              <Font size="13.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </GridPane>
+                  <Label fx:id="lbl_Name" alignment="CENTER" prefHeight="18.0" prefWidth="123.0" style="-fx-background-color: #ffffff;" text="Label" GridPane.columnIndex="2" GridPane.halignment="CENTER" GridPane.valignment="CENTER">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </GridPane>
+         </children>
+      </Pane>
+      <Button fx:id="btn_Back" layoutX="236.0" layoutY="435.0" mnemonicParsing="false" onAction="#back" prefHeight="41.0" prefWidth="78.0" text="Back">
+         <font>
+            <Font name="Segoe UI Light" size="19.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
