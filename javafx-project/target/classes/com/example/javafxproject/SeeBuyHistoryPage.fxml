@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anch_BuyHistory" prefHeight="555.0" prefWidth="765.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.BuyHistoryController">
+   <children>
+      <ImageView fx:id="img_BuyHistory" fitHeight="555.0" fitWidth="765.0">
+         <image>
+            <Image url="@image/hourglass.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn_Back" layoutX="27.0" layoutY="498.0" mnemonicParsing="false" onAction="#back" prefHeight="34.0" prefWidth="83.0" text="Back">
+         <font>
+            <Font name="Segoe UI Light" size="16.0" />
+         </font>
+      </Button>
+      <ImageView fx:id="img_logo" fitHeight="49.0" fitWidth="186.0" layoutX="566.0" layoutY="492.0">
+         <image>
+            <Image url="@image/Picture1.png" />
+         </image>
+      </ImageView>
+      <TreeView fx:id="tV_BuyHistory" editable="true" prefHeight="200.0" prefWidth="309.0" style="-fx-border-color: #000000; -fx-border-radius: 10;" />
+   </children>
+</AnchorPane>

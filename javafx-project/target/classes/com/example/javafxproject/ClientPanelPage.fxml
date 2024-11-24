@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anch_Clientpage" prefHeight="555.0" prefWidth="768.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.javafxproject.ClientPanelController">
+   <children>
+      <ImageView fx:id="img_ClientPage" fitHeight="557.0" fitWidth="768.0">
+         <image>
+            <Image url="@image/panelcostumer.png" />
+         </image>
+      </ImageView>
+      <TitledPane fx:id="titPane_CostumerFacilities" prefHeight="182.0" prefWidth="202.0" text="Customer Facilities" AnchorPane.bottomAnchor="354.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="583.0" AnchorPane.topAnchor="0.0">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+         <content>
+            <VBox fx:id="vBox_Facilities" maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="150.0" prefWidth="200.0" spacing="10.0" style="-fx-background-color: #000000;">
+               <children>
+                  <Button fx:id="btn_personalInformation" mnemonicParsing="false" onAction="#showPersonalInformation" prefHeight="29.0" prefWidth="196.0" style="-fx-background-color: #054259;" text="Personal Information" textFill="WHITE">
+                     <padding>
+                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                     </padding>
+                     <font>
+                        <Font name="Segoe UI Light" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_shop_purchase" mnemonicParsing="false" onAction="#shopStuff_Purchase" prefHeight="34.0" prefWidth="192.0" style="-fx-background-color: #186161;" text="Shop Stuffs/Purchase" textFill="#bcbaba">
+                     <font>
+                        <Font name="Segoe UI Light" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_buyHistory" mnemonicParsing="false" onAction="#seeBuyHistory" prefHeight="35.0" prefWidth="183.0" style="-fx-background-color: #55948e;" text="See Buy History" textFill="#e4dfdf">
+                     <font>
+                        <Font name="Segoe UI Light" size="14.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btn_ChargeAcc" mnemonicParsing="false" onAction="#chargeAccount" prefHeight="31.0" prefWidth="179.0" style="-fx-background-color: #55b8c1;" text="Charge Account" textFill="#080808">
+                     <font>
+                        <Font name="Segoe UI Light" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </content>
+      </TitledPane>
+      <Button fx:id="btn_Back" cancelButton="true" layoutX="14.0" layoutY="465.0" mnemonicParsing="false" onAction="#back" prefHeight="26.0" prefWidth="113.0" style="-fx-background-color: #013343;" text="Back" textFill="WHITE">
+         <font>
+            <Font name="Segoe UI Light" size="14.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="60.0" fitWidth="200.0" layoutX="554.0" layoutY="14.0">
+         <image>
+            <Image url="@image/Picture1.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

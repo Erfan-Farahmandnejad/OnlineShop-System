@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="95d3ef55-bcc9-4a0e-88fb-ef6cdfe7bc96" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/AdminControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/controller/ClientControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/AdminController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/AdminController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/controller/ClientController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/controller/ClientController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/BuyHistoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/BuyHistoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/LoginPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/LoginPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/SeeDiscountsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/SeeDiscountsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/SignUpPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/SignUpPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/StuffPageController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/StuffPageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/UltimatePurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/javafxproject/UltimatePurchaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/model/Roles/ClientModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/model/Roles/ClientModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/view/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/view/AdminPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafxproject/SeeDiscounts.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxproject/SeeDiscounts.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafxproject/StuffPage.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxproject/StuffPage.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/javafxproject/UltimatePurchase.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/javafxproject/UltimatePurchase.fxml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="FxmlFile" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$MAVEN_REPOSITORY$/org/openjfx/javafx-controls/19/javafx-controls-19-win.jar!/javafx/scene/control/Alert.class" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="downloadAnnotationsAutomatically" value="true" />
+        <option name="downloadDocsAutomatically" value="true" />
+        <option name="downloadSourcesAutomatically" value="true" />
+        <option name="excludeTargetFolder" value="false" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2Q5yYypC0sQE1b3bikP7oIqRDSQ" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;phase2&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/acer/IdeaProjects/Game_Project&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\acer\IdeaProjects\first-project-phase2-Erfan-fn\javafx-project\src\main\java\com\example" />
+      <recent name="C:\Users\acer\IdeaProjects\first-project-phase2-Erfan-fn\javafx-project\src\main\java\com" />
+      <recent name="C:\Users\acer\IdeaProjects\first-project-phase2-Erfan-fn\javafx-project\src\main\java\com\example\javafxproject" />
+      <recent name="C:\Users\acer\IdeaProjects\first-project-phase2-Erfan-fn\javafx-project\src\main\java\model" />
+      <recent name="C:\Users\acer\IdeaProjects\first-project-phase2-Erfan-fn\javafx-project\src\main\java" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.example.controller" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.AdminControllerTest.testAcceptOrRejectRequests">
+    <configuration name="AdminControllerTest.testAcceptOrRejectRequests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.AdminControllerTest" />
+      <option name="METHOD_NAME" value="testAcceptOrRejectRequests" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminControllerTest.testGiveClientsDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.AdminControllerTest" />
+      <option name="METHOD_NAME" value="testGiveClientsDiscount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminControllerTest.testRemoveClientDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.AdminControllerTest" />
+      <option name="METHOD_NAME" value="testRemoveClientDiscount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminControllerTest.testRemoveSomeStuffDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.AdminControllerTest" />
+      <option name="METHOD_NAME" value="testRemoveSomeStuffDiscount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminControllerTest.testSomeStuffDiscounts" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="phase2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.example.controller.AdminControllerTest" />
+      <option name="METHOD_NAME" value="testSomeStuffDiscounts" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.AdminControllerTest.testRemoveClientDiscount" />
+        <item itemvalue="JUnit.AdminControllerTest.testRemoveSomeStuffDiscount" />
+        <item itemvalue="JUnit.AdminControllerTest.testSomeStuffDiscounts" />
+        <item itemvalue="JUnit.AdminControllerTest.testGiveClientsDiscount" />
+        <item itemvalue="JUnit.AdminControllerTest.testAcceptOrRejectRequests" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95d3ef55-bcc9-4a0e-88fb-ef6cdfe7bc96" name="Changes" comment="" />
+      <created>1684657791225</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684657791225</updated>
+      <workItem from="1684657792464" duration="1682000" />
+      <workItem from="1684661878328" duration="7831000" />
+      <workItem from="1684671563571" duration="1407000" />
+      <workItem from="1684693401458" duration="1552000" />
+      <workItem from="1684695003153" duration="21120000" />
+      <workItem from="1684919998502" duration="5361000" />
+      <workItem from="1684928807584" duration="11948000" />
+      <workItem from="1684993987258" duration="7749000" />
+      <workItem from="1685007398512" duration="17713000" />
+      <workItem from="1685091237827" duration="31893000" />
+      <workItem from="1685170477824" duration="18992000" />
+      <workItem from="1685273657007" duration="14118000" />
+      <workItem from="1685355474434" duration="30205000" />
+      <workItem from="1685454614616" duration="10694000" />
+      <workItem from="1685618764420" duration="856000" />
+      <workItem from="1685711760045" duration="14635000" />
+      <workItem from="1685797551220" duration="9618000" />
+      <workItem from="1685816889031" duration="1462000" />
+      <workItem from="1685962481270" duration="24000" />
+      <workItem from="1687424288966" duration="10000" />
+      <workItem from="1687427184146" duration="13000" />
+      <workItem from="1687436440869" duration="11000" />
+      <workItem from="1687440589718" duration="1068000" />
+      <workItem from="1687723459823" duration="3578000" />
+      <workItem from="1687727074333" duration="949000" />
+      <workItem from="1687728039483" duration="9462000" />
+      <workItem from="1687754702627" duration="6513000" />
+      <workItem from="1687766342386" duration="49000" />
+      <workItem from="1687782393743" duration="828000" />
+      <workItem from="1687783742227" duration="390000" />
+      <workItem from="1687788432229" duration="33000" />
+      <workItem from="1687788550496" duration="8000" />
+      <workItem from="1687847165564" duration="52000" />
+      <workItem from="1688113495287" duration="17000" />
+      <workItem from="1688466616407" duration="525000" />
+      <workItem from="1688480355620" duration="7946000" />
+      <workItem from="1688584733638" duration="26000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/model/UserModelFacilities/IdiscountModel.java</url>
+          <line>2</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/example/controller/ClientControllerTest.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/javafx_project$ClientControllerTest.ic" NAME="ClientControllerTest Coverage Results" MODIFIED="1688480807887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.controller.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/javafx_project$AdminControllerTest.ic" NAME="AdminControllerTest Coverage Results" MODIFIED="1688488571367" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.controller.*</FILTER>
+    </SUITE>
+  </component>
+</project>
