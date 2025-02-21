@@ -50,7 +50,7 @@ Ensure you have the following installed:
 ### Steps to Run
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/Erfan-fn/OnlineShop-System.git)
+   git clone https://github.com/Erfan-fn/OnlineShop-System.git
    cd OnlineShop-System
    ```
 2. **Build the Project**
